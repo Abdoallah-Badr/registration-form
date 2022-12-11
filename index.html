@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registration form</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sub-container">
+        <img id="img" src="./images/logos/icons8-duolingo-logo.svg" />
+        <div class="content">
+          <div id="title">
+            <h1>Welcome</h1>
+          </div>
+          <p>We’re glad you’re here! Sign up to start browsing the website.</p>
+          <form id="user-form">
+            <input
+              class="form-input"
+              id="username"
+              placeholder="Username"
+              type="text"
+              autocomplete="off"
+              required
+            />
+            <input
+              class="form-input"
+              id="form-email"
+              placeholder="Email"
+              type="email"
+              required
+              autocomplete="off"
+            />
+            <input
+              class="form-input"
+              id="form-password"
+              placeholder="Password"
+              type="password"
+              autocomplete="off"
+              required
+            />
+            <input
+              class="form-input"
+              id="form-password-confirm"
+              placeholder="Confirm password"
+              type="password"
+              autocomplete="off"
+              required
+            />
+            <button id="submit-button">Create Account</button>
+          </form>
+          <button id="startbtn">Get Started</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
